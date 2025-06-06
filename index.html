@@ -17,43 +17,15 @@
 </head>
 <body>
 
-
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Research</a></li>
-				  <li><a href="#">CV</a></li> 
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-  
   <!-- Page Content -->
     <div class="container">
-
         <div class="row">
-
             <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
-                
+            <div class="col-md-8">
                 <!-- Main Image -->
-                <img class="img-responsive" src="photo.gif" alt=""><br>
-                
-                <div style="margin-top:3%; text-align:justify;">                
-					<p>I am a Postdoctoral Associate in the FutureTech lab, part of MIT Sloan's Initiative on the Digital Economy. I am interested in the economics of digital platforms, artificial intelligence, and social media.</p>
+                <img class="img-responsive" src="kazimier_smith_headshot.jpeg" alt="" style="margin: 15px 0; width: 200px;"><br>
+                <div style="margin-top:1%; text-align:justify;">                
+					<p>I am a Postdoctoral Associate in the FutureTech lab, part of MIT's Computer Science and Artificial Intelligence Laboratory and MIT Sloan's Initiative on the Digital Economy. I am interested in the economics of digital platforms, artificial intelligence, and social media.</p>
                 </div>
             </div> 
 
@@ -67,7 +39,6 @@
                 </p>
             </div>
             
-            
             <!-- Links on the Sidebar -->
             <!--<div class="col-md-4" style="margin-top:2%">
               <dd><a href="#">Google Scholar</a></dd> 
@@ -75,37 +46,29 @@
               <dd><a href="#">LinkedIn</a></dd>
 			</div>-->
             
-            
             <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
+            <div class="col-md-8">
                 <h2 id="research">Research</h2>
-                
                 <strong>Working papers</strong><br/>
                 <ul>
-                <li class="paper"><a href="kazimiersmith.github.io/kazimiersmith.us/docs/influencer_dynamics.pdf">Influencer Dynamics</a>
+					<li class="paper"><a href="kazimiersmith.github.io//docs/influencer_dynamics.pdf">Influencer Dynamics</a><br>
 					Consumers use social media for entertainment and to discover new products. To reach potential customers, brands pay influencers to feature products in their content. Payment depends on the size of the influencer’s audience, and the effectiveness of the endorsement relies on trust. Excessive product recommendations may erode the relationship between an influencer and their followers. I develop a dynamic model in which an influencer produces sponsored posts (which include product recommendations) and organic posts (without product recommendations). Both affect the influencer’s growth and require effort to produce. A sponsored post incurs additional costs: it requires searching for and negotiating with brands, and followers are less likely to engage with it. Using 2,780,011 Instagram posts and 136,453 TikTok posts from 1,369 influencers, I quantify the engagement penalty by comparing identical posts across platforms. Analyzing the influencers’ career histories, I show that organic and sponsored posts have similar effects on follower growth. I leverage variation in the number and types of posts to estimate the unknown cost parameters in the model. An influencer with 100,000 followers optimally produces about 0.25 sponsored posts and two organic posts per week, and influencers with more followers produce more content of both types. Viral posts provide a transient boost to growth, but career progression largely depends on consistent content production. Regulating sponsored content can theoretically backfire by decreasing incentives to produce organic posts, but counterfactual simulations assuage this concern. A cost increase that reduces sponsored content by 25% only causes a 2.7% drop in organic content.</li>
 				</ul>
-                <li class="paper"><a href="kazimiersmith.github.io/kazimiersmith.us/docs/llm_bert.pdf">Feeding LLM Annotations to BERT Classifiers at Your Own Risk</a>
-					Using LLM-generated labels to fine-tune smaller encoder-only models for text classification has gained popularity in various settings. While this approach may be justified in simple and low-stakes applications, we conduct empirical analysis to demonstrate how the perennial curse of training on synthetic data manifests itself in this specific setup. Compared to models trained on gold labels, we observe not only the expected performance degradation in accuracy and F1 score, but also increased instability across training runs and premature performance plateaus. These findings cast doubts on the reliability of such approaches in real-world applications. We contextualize the observed phenomena through the lens of error propagation and offer several practical mitigation strategies, including entropy-based filtering and ensemble techniques. Although these heuristics offer partial relief, they do not fully resolve the inherent risks of propagating non-random errors from LLM annotations to smaller classifiers, underscoring the need for caution when applying this workflow in high-stakes text classification tasks.
+				<ul>
+					<li class="paper"><a href="kazimiersmith.github.io/docs/llm_bert.pdf">Feeding LLM Annotations to BERT Classifiers at Your Own Risk</a><br>
+					Using LLM-generated labels to fine-tune smaller encoder-only models for text classification has gained popularity in various settings. While this approach may be justified in simple and low-stakes applications, we conduct empirical analysis to demonstrate how the perennial curse of training on synthetic data manifests itself in this specific setup. Compared to models trained on gold labels, we observe not only the expected performance degradation in accuracy and F1 score, but also increased instability across training runs and premature performance plateaus. These findings cast doubts on the reliability of such approaches in real-world applications. We contextualize the observed phenomena through the lens of error propagation and offer several practical mitigation strategies, including entropy- based filtering and ensemble techniques. Although these heuristics offer partial relief, they do not fully resolve the inherent risks of propagating non-random errors from LLM annotations to smaller classifiers, underscoring the need for caution when applying this workflow in high-stakes text classification tasks.
 				</li>
                 </ul>
             
                 <strong>Works in progress</strong><br/>
                 <ul>
-                <li class="paper"><a href="kazimiersmith.github.io/kazimiersmith.us/docs/platform_choice_networks_slides.pdf">Platform Competition with Network-based Ad Targeting</a></li>
+                <li class="paper"><a href="kazimiersmith.github.io/docs/platform_choice_networks_slides.pdf">Platform Competition with Network-based Ad Targeting</a></li>
                 </ul>
             </div>
-
-            
         </div>
-
-
     </div>
     <!-- /.container -->
-    
     <!-- Other people may like it too! -->
     <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
 </body>
-
 </html>
