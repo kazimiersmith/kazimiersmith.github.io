@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <!--
-    Simplified from Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
+	Simplified from Plain-Academic by Vasilios Mavroudis
+	Released under the Simplified BSD License/FreeBSD (2-clause) License.
+	https://github.com/mavroudisv/plain-academic
 -->
 
 <html lang='en'>
-<head>
-  <title>Kazimier Smith</title>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-</head>
-<body>
-	<table width='100%' cellpadding='10'>
-    <tr>
-      <td width='70%' valign='top'>
-        <img src='kazimier_smith_headshot.jpeg' alt='Kazimier Smith' width='200'>
-        <br>
+	<head>
+		<title>Kazimier Smith</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+	</head>
+	<body>
+		<table width='100%'>
+			<tr>
+				<td width='80%' valign='top'>
+					<img src='kazimier_smith_headshot.jpeg' alt='Kazimier Smith' width='200'>
+				</td>
 
-		<p>I am a Postdoctoral Associate in <a href='https://www.neil-t.com'>Neil Thompson</a>'s FutureTech lab, part of MIT's Computer Science and Artificial Intelligence Laboratory and MIT Sloan's Initiative on the Digital Economy. I am interested in the economics of digital platforms, artificial intelligence, and social media. I completed my PhD in economics at the Stern School of Business at New York University under the supervision of <a href='http://www.luiscabral.net'>Luís Cabral</a>. Here is my <a href='kazimiersmith.github.io/docs/kazimier_smith_cv.pdf'>CV</a>. I describe my research below.</p>
+				<td width='20%' valign='top'>
+					<b style='font-size: 32px;'>Kazimier Smith</b><br>
+					<b>kazim119@mit.edu</b><br>
+					MIT Computer Science and Artificial Intelligence Lab
+				</td>
+			</tr>
+		</table>
+		<table width='100%'>
+			<tr>
+				<td>
+					<p>I am a Postdoctoral Associate in <a href='https://www.neil-t.com'>Neil Thompson</a>'s FutureTech lab, part of MIT's Computer Science and Artificial Intelligence Laboratory and MIT Sloan's Initiative on the Digital Economy. I am interested in the economics of digital platforms, artificial intelligence, and social media. I completed my PhD in economics at the Stern School of Business at New York University under the supervision of <a href='http://www.luiscabral.net'>Luís Cabral</a>. Here is my <a href='kazimiersmith.github.io/docs/kazimier_smith_cv.pdf'>CV</a>. I describe my research below.</p>
 
-		<h2>Research</h2>
+					<h2>Research</h2>
 
-		<h3>Working papers</h3>
-		<ul>
-			<li><a href='kazimiersmith.github.io/docs/influencer_dynamics.pdf'>Influencer Dynamics</a><br>
-			Consumers use social media for entertainment and to discover new products. To reach potential customers, brands pay influencers to feature products in their content. Payment depends on the size of the influencer’s audience, and the effectiveness of the endorsement relies on trust. Excessive product recommendations may erode the relationship between an influencer and their followers. I develop a dynamic model in which an influencer produces sponsored posts (which include product recommendations) and organic posts (without product recommendations). Both affect the influencer’s growth and require effort to produce. A sponsored post incurs additional costs: it requires searching for and negotiating with brands, and followers are less likely to engage with it. Using 2,780,011 Instagram posts and 136,453 TikTok posts from 1,369 influencers, I quantify the engagement penalty by comparing identical posts across platforms. Analyzing the influencers’ career histories, I show that organic and sponsored posts have similar effects on follower growth. I leverage variation in the number and types of posts to estimate the unknown cost parameters in the model. An influencer with 100,000 followers optimally produces about 0.25 sponsored posts and two organic posts per week, and influencers with more followers produce more content of both types. Viral posts provide a transient boost to growth, but career progression largely depends on consistent content production. Regulating sponsored content can theoretically backfire by decreasing incentives to produce organic posts, but counterfactual simulations assuage this concern. A cost increase that reduces sponsored content by 25% only causes a 2.7% drop in organic content.</li>
-			<br>
-			<li><a href='kazimiersmith.github.io/docs/llm_bert.pdf'>Feeding LLM Annotations to BERT Classifiers at Your Own Risk</a><br>
-			Using LLM-generated labels to fine-tune smaller encoder-only models for text classification has gained popularity in various settings. While this approach may be justified in simple and low-stakes applications, we conduct empirical analysis to demonstrate how the perennial curse of training on synthetic data manifests itself in this specific setup. Compared to models trained on gold labels, we observe not only the expected performance degradation in accuracy and F1 score, but also increased instability across training runs and premature performance plateaus. These findings cast doubts on the reliability of such approaches in real-world applications. We contextualize the observed phenomena through the lens of error propagation and offer several practical mitigation strategies, including entropy- based filtering and ensemble techniques. Although these heuristics offer partial relief, they do not fully resolve the inherent risks of propagating non-random errors from LLM annotations to smaller classifiers, underscoring the need for caution when applying this workflow in high-stakes text classification tasks.</li>
-		</ul>
-            
-		<h3>Works in progress</h3>
-		<ul>
-			<li><a href='kazimiersmith.github.io/docs/platform_choice_networks_slides.pdf'>Platform Competition with Network-based Ad Targeting</a></li>
-		</ul>
-	</td>
+					<h3>Working papers</h3>
+					<ul>
+						<li><a href='kazimiersmith.github.io/docs/influencer_dynamics.pdf'>Influencer Dynamics</a><br>
+							Consumers use social media for entertainment and to discover new products. To reach potential customers, brands pay influencers to feature products in their content. Payment depends on the size of the influencer’s audience, and the effectiveness of the endorsement relies on trust. Excessive product recommendations may erode the relationship between an influencer and their followers. I develop a dynamic model in which an influencer produces sponsored posts (which include product recommendations) and organic posts (without product recommendations). Both affect the influencer’s growth and require effort to produce. A sponsored post incurs additional costs: it requires searching for and negotiating with brands, and followers are less likely to engage with it. Using 2,780,011 Instagram posts and 136,453 TikTok posts from 1,369 influencers, I quantify the engagement penalty by comparing identical posts across platforms. Analyzing the influencers’ career histories, I show that organic and sponsored posts have similar effects on follower growth. I leverage variation in the number and types of posts to estimate the unknown cost parameters in the model. An influencer with 100,000 followers optimally produces about 0.25 sponsored posts and two organic posts per week, and influencers with more followers produce more content of both types. Viral posts provide a transient boost to growth, but career progression largely depends on consistent content production. Regulating sponsored content can theoretically backfire by decreasing incentives to produce organic posts, but counterfactual simulations assuage this concern. A cost increase that reduces sponsored content by 25% only causes a 2.7% drop in organic content.</li>
+						<br>
+						<li><a href='kazimiersmith.github.io/docs/llm_bert.pdf'>Feeding LLM Annotations to BERT Classifiers at Your Own Risk</a><br>
+							Using LLM-generated labels to fine-tune smaller encoder-only models for text classification has gained popularity in various settings. While this approach may be justified in simple and low-stakes applications, we conduct empirical analysis to demonstrate how the perennial curse of training on synthetic data manifests itself in this specific setup. Compared to models trained on gold labels, we observe not only the expected performance degradation in accuracy and F1 score, but also increased instability across training runs and premature performance plateaus. These findings cast doubts on the reliability of such approaches in real-world applications. We contextualize the observed phenomena through the lens of error propagation and offer several practical mitigation strategies, including entropy- based filtering and ensemble techniques. Although these heuristics offer partial relief, they do not fully resolve the inherent risks of propagating non-random errors from LLM annotations to smaller classifiers, underscoring the need for caution when applying this workflow in high-stakes text classification tasks.</li>
+					</ul>
 
-	<td width='30%' valign='top'>
-        <h1>Kazimier Smith</h1>
-        <p><b>kazim119@mit.edu</b></p>
-        <p>MIT Computer Science and Artificial Intelligence Lab</p>
-      </td>
-    </tr>
-  </table>
-</body>
+					<h3>Works in progress</h3>
+					<ul>
+						<li><a href='kazimiersmith.github.io/docs/platform_choice_networks_slides.pdf'>Platform Competition with Network-based Ad Targeting</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</body>
 </html>
 
