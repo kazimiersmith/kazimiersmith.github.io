@@ -24,6 +24,7 @@ I describe my research below.
 
 - [From Funding to Findings (FIND): An Open Database of NSF Awards and Research Outputs](/docs/nsf_output.pdf)
     (with [Yucheng Lu](https://sites.google.com/nyu.edu/yuchenglu/home) and Qiaochu Fan).
+    _Proceedings of the 22nd IEEE International Conference on eScience_, forthcoming, 2026.
     Public funding plays a central role in driving scientific discovery. To better understand the link between research inputs and outputs, we introduce FIND (Funding-Impact NSF Database), an open-access dataset that systematically links NSF grant proposals to their downstream research outputs, including publication metadata and abstracts. The primary contribution of this project is the creation of a large-scale, structured dataset that enables transparency, impact evaluation, and metascience research on the returns to public funding. To illustrate the potential of FIND, we present two proof-of-concept NLP applications. First, we analyze whether the language of grant proposals can predict the subsequent citation impact of funded research. Second, we leverage large language models to extract scientific claims from both proposals and resulting publications, allowing us to measure the extent to which funded projects deliver on their stated goals. Together, these applications highlight the utility of FIND for advancing metascience, informing funding policy, and enabling novel AI-driven analyses of the scientific process.
 
 - [Influencer Dynamics](/docs/influencer_dynamics.pdf)
