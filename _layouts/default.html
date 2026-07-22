@@ -26,11 +26,17 @@
       img {
         float: left;
         height: auto;
-        max-width: 200px;
+        max-width: min(200px, 50%);
       }
 
       h1, h1 + p {
         text-align: right;
+      }
+
+      /* shrink the name with the viewport so it stays on one line */
+      h1 {
+        white-space: nowrap;
+        font-size: min(2em, 7vw);
       }
 
       /* the --- after the header is invisible; it just ends the photo float */
