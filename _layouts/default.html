@@ -24,27 +24,19 @@
       }
 
       img {
+        float: left;
         height: auto;
         max-width: 200px;
       }
 
-      .profile-header {
-        border-collapse: collapse;
-        width: 100%;
-      }
-
-      .profile-header th {
-        font-weight: normal;
-        vertical-align: middle;
-      }
-
-      .profile-header th:last-child {
+      h1, h1 + p {
         text-align: right;
       }
 
-      .profile-header th:last-child strong {
-        display: block;
-        font-size: 2.5rem;
+      /* the --- after the header is invisible; it just ends the photo float */
+      hr {
+        border: none;
+        clear: left;
       }
     </style>
   </head>
