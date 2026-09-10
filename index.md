@@ -12,7 +12,7 @@ title: Kazimier Smith
 
 I am a Postdoctoral Associate at the Massachusetts Institute of Technology.
 I work under the supervision of
-[Neil Thompson](https://www.neil-t.com).
+[Neil Thompson](https://futuretech.mit.edu).
 I am interested in the economics of digital platforms, artificial intelligence, and social media.
 I completed my PhD in economics at the Stern School of Business at New York University under the supervision of
 [Luís Cabral](http://www.luiscabral.net).
