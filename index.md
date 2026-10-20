@@ -49,7 +49,7 @@ I describe my research below.
 
 - [From Funding to Findings (FIND): An Open Database of NSF Awards and Research Outputs](/docs/nsf_output.pdf)
     (with [Yucheng Lu](https://sites.google.com/nyu.edu/yuchenglu/home) and Qiaochu Fan)  
-    _Proceedings of the 22nd IEEE International Conference on eScience_, forthcoming, 2026.  
+    _Proceedings of the 22nd IEEE International Conference on eScience_, 2026.  
     <details>
     <summary>click to show abstract</summary>
 
