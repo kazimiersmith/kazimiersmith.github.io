@@ -57,5 +57,14 @@ I describe my research below.
     </details>
 
 ### Works in progress
+- Open-weight Competition and Proprietary AI Innovation
+    (with [Yucheng Lu](https://sites.google.com/nyu.edu/yuchenglu/home) and Alisa Liu)  
+    <details>
+    <summary>click to show abstract</summary>
+
+    We study how open-weight AI models affect proprietary frontier innovation in a game-theoretic framework. While expanding access to AI, open-weight releases reduce the profitability of proprietary firms and may slow the pace at which proprietary models improve. We formalize this interaction as a continuous-time dynamic game in which proprietary firms choose costly investment schedules to build capability stocks, while a nonstrategic open-weight alternative follows an exogenous path of technical capability and effective market-access weight.
+
+    We show that the presence of an open-weight model need not imply lower proprietary capability. Equilibrium proprietary investment and consequent capability paths depend not only on the open-weight model's capability and availability trajectories, but also on the intensity of competition among proprietary firms and the demand for tasks requiring different levels of AI capability. We further consider stylized policy counterfactuals by varying the open-weight model's availability path, which captures legal or practical restrictions on, or support of, access to the open-weight model.
+    </details>
 
 - [Platform Competition with Network-based Ad Targeting](/docs/platform_choice_networks_slides.pdf)
