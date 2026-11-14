@@ -20,13 +20,12 @@ BS Economics and Mathematics #h(1fr) 2019\
 #h(2em) University of Minnesota -- Twin Cities
 
 == Research fields
-Economics of platforms, economics of social media, economics of AI,
-applied microeconomics, industrial organization, network economics
+Industrial organization, digital platforms, artificial intelligence, social media, networks
 
 == Publications
 "#link("https://kazimiersmith.github.io/docs/nsf_output.pdf")[From Funding to Findings (FIND): An Open Database of NSF Awards and Research Outputs]."
 (with Yucheng Lu and Qiaochu Fan)\
-_Proceedings of the 22nd IEEE International Conference on eScience_, forthcoming, 2026.
+_Proceedings of the 22nd IEEE International Conference on eScience_, 2026.
 
 == Working papers
 "#link("https://kazimiersmith.github.io/docs/birth_life_death_models.pdf")[Birth, Life, and Death of AI Models]."
@@ -38,15 +37,16 @@ _Proceedings of the 22nd IEEE International Conference on eScience_, forthcoming
 (with Yucheng Lu)
 
 == Works in progress
-"Does Generative AI Crowd Out Human Artists? Evidence from Reddit."
+"Open-weight Competition and Proprietary AI Innovation." (with Yucheng Lu and Alisa Liu)
 
 "Platform Competition with Network-based Ad Targeting."
 
 == Teaching experience
-_As primary instructor_\
+_As primary instructor_ (Lasell University)\
 Principles of Macroeconomics #h(1fr) 2026
 
-_As teaching assistant_\
+_As teaching assistant_ (New York University)\
+Behavioral Economics (undergraduate, MBA) #h(1fr) 2025\
 Microeconomics with Algebra (undergraduate) #h(1fr) 2021 -- 2024\
 Global Macroeconomics (undergraduate) #h(1fr) 2024\
 The Global Economy (MBA) #h(1fr) 2024\
