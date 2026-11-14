@@ -1,4 +1,5 @@
-#set text(font: "New Computer Modern")
+#set text(font: "New Computer Modern", size: 10pt)
+#set page(margin: 0.75in)
 #show link: set text(fill: rgb(0, 0, 179))
 
 #align(center)[
